@@ -80,14 +80,16 @@ body{
 .bttn.primary{
   display: inline-block;
   width: max-content;
-  background: #21A69A;
+  background: #f6c657;
   border: none;
-  color: white;
+  color: #092e81;
   box-shadow: -3px 3px 5px rgb(35 33 33 / 23%);
+  font-weight: bolder;
+  border-radius: 15px;
 }
 
 .bttn.primary:hover {
-  background: #21a69a;
+  background: #f6c657;
   box-shadow: inset 3px 4px 10px rgb(35 33 33 / 40%);
   /* -webkit-box-shadow: inset 3px 4px 10px rgb(35 33 33 / 40%); */
 }
@@ -137,4 +139,19 @@ footer {
 
 footer img {
   width: 20px;
+}
+
+#img-hero{
+  padding: 5%;
+  margin: 10%;
+  width: 60%;
+  height: 60%;
+  border-radius: 40px;
+}
+
+.img-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
